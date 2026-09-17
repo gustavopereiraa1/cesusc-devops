@@ -1,0 +1,27 @@
+{
+  "name": "cesusc-devops",
+  "version": "1.0.0",
+  "description": "Implantação Continua DEVOPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavopereiraa1/cesusc-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gustavopereiraa1/cesusc-devops/issues"
+  },
+  "homepage": "https://github.com/gustavopereiraa1/cesusc-devops#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
