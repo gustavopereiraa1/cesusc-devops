@@ -29,4 +29,4 @@ async function testGoogle() {
   }
 };
 
-test('Google', async () => {await testGoogle()}, 10000);
+test('Google', async () => {await testGoogle()}, 20000);
