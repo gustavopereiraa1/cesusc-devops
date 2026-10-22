@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ACESSS_TOKEN }}
           fetch-depth: 0  # Traz todo o histórico
 
       - name: Set up Git
