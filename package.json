@@ -2,8 +2,9 @@
   "name": "cesusc-devops",
   "version": "1.0.0",
   "description": "Implantação Continua DEVOPS",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "jest --coverage",
     "lint": "eslint src/*.js"
   },

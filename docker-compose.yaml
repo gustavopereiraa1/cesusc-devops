@@ -1,0 +1,14 @@
+services:
+  app:
+    # IMAGEM_CESUSC = <seu_usuario_dockerhub>/cesusc-devops (vem do workflow ou do arquivo .env no servidor)
+    image: ${IMAGEM_CESUSC}:latest
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
