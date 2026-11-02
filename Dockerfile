@@ -5,7 +5,7 @@ WORKDIR /opt/cesusc-devops
 
 # Copia primeiro só os manifestos para aproveitar o cache das dependências
 COPY package.json package-lock.json ./
-RUN npm ci --omit=dev
+RUN npm install --omit=dev
 
 # Copia o código da aplicação
 COPY src/ src/
